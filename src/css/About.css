@@ -33,13 +33,13 @@ button.about.btn.pointer {
   transition-duration: 500ms;
 }
 .about {
-  background: #f9004d;
+  background: #f5be09;
 }
 
 img.about__img {
   border-radius: 20px;
   width: 100%;
-  height: 600px;
+  height: 500px;
   object-fit: cover;
   transition: 0.4s;
   opacity: 0.7;
@@ -104,7 +104,7 @@ h5.about__text {
   font-size: 20px;
   padding-bottom: 50px;
 }
-p.about__text{
+p.about__text {
   color: white;
 }
 .about__btn {
@@ -133,7 +133,7 @@ a.up__to__top__btn {
   position: fixed;
   bottom: 3%;
   right: 2%;
-  background-color: #f9004d;
+  background-color: #f5be09;
   border-radius: 50%;
   cursor: pointer;
   display: none;
@@ -146,24 +146,24 @@ a.up__to__top__btn.active {
   display: flex;
 }
 
-
-@media only screen and (min-width: 421px) {
+@media only screen and (max-width: 366px) {
   .about > .row {
     flex-direction: row;
+  }
+  img.about__img {
+    height: 350px;
   }
 }
 @media only screen and (max-width: 1024px) {
   .p__color {
     font-size: 15px !important;
   }
+  .about > .row {
+    flex-direction: row;
+  }
 }
 @media only screen and (max-width: 768px) {
   h1.about__heading {
     font-size: 40px;
-  }
-}
-@media only screen and (max-width: 1072px) {
-  .about__button > .row {
-    flex-direction: row;
   }
 }

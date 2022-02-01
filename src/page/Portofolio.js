@@ -26,7 +26,7 @@ function Portofolio() {
                         <div className='project__meta absolute'>
                             <h5 className='project__text'>Development</h5>
                             <h4 className='project__text'>Getting tickets to the big show</h4>
-                            <a href='#' className='project__btn'>View Details</a>
+                            <a href='#' className='project__btn'>Live Demo</a>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ function Portofolio() {
                         <div className='project__meta absolute'>
                             <h5 className='project__text'>Development</h5>
                             <h4 className='project__text'>Getting tickets to the big show</h4>
-                            <a href='#' className='project__btn'>View Details</a>
+                            <a href='#' className='project__btn'>Github</a>
                         </div>
                     </div>
                 </div>

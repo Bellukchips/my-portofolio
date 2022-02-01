@@ -14,7 +14,7 @@ body {
 a {
   font-weight: bold;
   text-decoration: none;
-  color: #f9004d;
+  color: #f5be09;
 }
 
 h1,
@@ -73,7 +73,7 @@ p {
   padding: 10px 0px;
 }
 .sweet {
-  color: #f9004d;
+  color: #f0be1b;
 }
 .row {
   display: flex;
@@ -124,8 +124,8 @@ button.btn {
   font-size: 18px;
   font-weight: 500;
   border-radius: 5px;
-  border: 2px solid #f9004d;
-  background-color: #f9004d;
+  border: 2px solid #f5be09;
+  background-color: #f5be09;
   color: #fff !important;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -150,20 +150,18 @@ button.about.btn.pointer:hover {
   .col__2 {
     max-width: 100%;
   }
-}
-@media only screen and (max-width: 768px) {
   .col__3 {
     max-width: 50%;
   }
 }
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
   .col__3 {
     max-width: 100%;
   }
-}
+} */
 @media only screen and (max-width: 770px) {
   .col__3 {
-    max-width: 50%;
+    max-width: 80%;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -172,5 +170,8 @@ button.about.btn.pointer:hover {
   }
   .footer.d__flex.align__items__center.justify__content__space__between.pz-10 {
     flex-wrap: wrap;
+  }
+  .col__3 {
+    max-width: 90%;
   }
 }

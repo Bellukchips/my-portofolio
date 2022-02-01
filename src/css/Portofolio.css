@@ -4,7 +4,7 @@
 h1.heading {
   font-size: 60px;
   text-align: center;
-  color: #f9004d;
+  color: #f5be09;
   font-family: Poppins, sans-serif;
   font-weight: 700;
   margin-bottom: 10px;
@@ -32,7 +32,7 @@ img.project__img::after {
   content: "";
   width: 100%;
   height: 100%;
-  background-color: #f9004d;
+  background-color: #f5be09;
   z-index: 1;
   opacity: 1;
 }
@@ -83,6 +83,7 @@ h4.project__text {
   padding-bottom: 20px;
 }
 a.project__btn {
+  text-align: center;
   padding: 12px 35px;
   border: 2px solid #ffffff87;
   border-radius: 5px;
@@ -97,8 +98,8 @@ button.btn {
   font-size: 18px;
   border-radius: 5px;
   font-weight: 500;
-  border: 2px solid #f9004d;
-  background-color: #f9004d;
+  border: 2px solid #f5be09;
+  background-color: #f5be09;
   color: #fff !important;
   text-transform: uppercase;
   letter-spacing: 2px;

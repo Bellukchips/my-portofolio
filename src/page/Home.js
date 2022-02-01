@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../css/Home.css";
-import logo from "../img/logo.png";
+import logo from "../img/icon.png";
 import myPhoto from "../img/me.png";
 function Home() {
   // fixed header
@@ -78,7 +78,7 @@ function Home() {
               <div className="col__2">
                 <h2 className="home__text pz_10">HI, I'm Lukman</h2>
                 <h3 className="home__text sweet">Mobile App Developer</h3>
-                <h4 className="home__text ">from Indonesian</h4>
+                {/* <h4 className="home__text ">from Indonesian</h4> */}
               </div>
               <div className="col__2">
                 <img className="photo__me" src={myPhoto} />

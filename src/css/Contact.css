@@ -1,6 +1,6 @@
 .contact {
   padding: 50px;
-  background-color: #f9004d;
+  background-color: #f5be09;
 }
 h1.hire__text {
   font-size: 60px;
@@ -43,7 +43,7 @@ textarea#message {
 }
 
 button.btn.contact.pointer {
-  color: #f9004d !important;
+  color: #f5be09 !important;
   background: white;
   margin: 20px 0px;
 }
@@ -56,4 +56,10 @@ button.btn.contact.pointer:hover {
 .contact__img {
   border-radius: 20px;
   width: 100%;
+}
+@media only screen and (max-width: 366px) {
+  h1.hire__text {
+    font-size: 40px;
+  }
+
 }
