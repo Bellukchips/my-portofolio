@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/About.css";
-import aboutImg from "../img/about.jpg";
+import aboutImg from "../img/photo.jpeg";
 function About() {
   // up to top button
   window.addEventListener("scroll", function () {
@@ -74,26 +74,15 @@ function About() {
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here', making it look like readable English
+                Introduce myself my name is Muh Lukman Akbar Prihandoyo usually
+                called Lukman. I’m a Mobile App Developer focused on platform
+                android. I’m create android application using Flutter Framework
+                or Java and kotlin language android native. My experience in the
+                field is more than 2 years and i’m still studying at Dian
+                Nuswantoro University Semarang. In doing a job I have honest and
+                diligent principles.
               </p>
-              <p className="about__text p__color">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here', making it look like readable English
-              </p>
-              <p className="about__text p__color">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here', making it look like readable English
-              </p>
+
               <div className="about__button align__items__center">
                 <div className="row">
                   <div className="col__2">

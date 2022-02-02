@@ -5,9 +5,13 @@
   background-position: 50%;
 }
 li.nav__items {
+  color: #f5be09;
   font-size: 18px;
   padding: 20px;
   padding-bottom: 15px;
+}
+li.nav__items.white {
+  color: white;
 }
 li.nav__items:hover {
   color: white;
@@ -80,7 +84,7 @@ ul.sidebar.d__flex {
   height: 100%;
   position: fixed;
   right: 0%;
-  background-color: #010101;
+  background-color: #f5be09;
   width: 300px;
   top: 0%;
   flex-direction: column;
@@ -117,6 +121,7 @@ li.sideNavbar {
     flex-direction: column-reverse;
     justify-content: center;
   }
+
   .home__content {
     padding: 0;
   }
@@ -130,7 +135,7 @@ li.sideNavbar {
   }
   h3.home__text {
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 @media only screen and (min-width: 452px) {
@@ -198,6 +203,10 @@ li.sideNavbar {
   svg.bi.bi-list.white.pointer {
     width: 30px;
     height: 30px;
+  }
+  .home__content > .social__media {
+    flex-direction: row;
+    padding: 0;
   }
 }
 @media only screen and (min-width: 769px) {

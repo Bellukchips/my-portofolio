@@ -56,6 +56,7 @@ button.btn.contact.pointer:hover {
 .contact__img {
   border-radius: 20px;
   width: 100%;
+  height: 500px;
 }
 @media only screen and (max-width: 366px) {
   h1.hire__text {
