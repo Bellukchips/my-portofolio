@@ -11,7 +11,7 @@ p.hire__text {
   color: rgba(29, 29, 36, 0.75);
   font-weight: 400;
 }
-::placeholder{
+::placeholder {
   color: white;
 }
 input.contact {
@@ -53,14 +53,9 @@ button.btn.contact.pointer:hover {
   transition: ease-in-out;
   transition-duration: 500ms;
 }
-.contact__img {
-  border-radius: 20px;
-  width: 100%;
-  height: 500px;
-}
+
 @media only screen and (max-width: 366px) {
   h1.hire__text {
     font-size: 40px;
   }
-
 }

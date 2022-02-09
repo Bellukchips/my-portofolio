@@ -1,6 +1,9 @@
 import React from "react";
 import "../css/Portofolio.css";
-import Project1 from "../img/portfolio-1.jpg";
+import flutix from "../img/flutix.jpeg";
+import signature from "../img/signature.jpeg";
+import mvoie_app from "../img/movie_app.jpeg";
+import penjurian from "../img/penjurian.jpeg";
 function Portofolio() {
   return (
     <div className="project component__space" id="Portofolio">
@@ -16,16 +19,16 @@ function Portofolio() {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
-                  <img className="project__img" src={Project1} />
+                  <img className="project__img" src={flutix} />
                 </div>
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
                 <h5 className="project__text">Flutix (Framework Flutter)</h5>
                 <h4 className="project__text">
-                  Demo application for cinema ticketing{" "}
+                  Demo application for cinema ticketing
                 </h4>
-                <a href="#" className="project__btn">
+                <a href="https://play.google.com/store/apps/details?id=com.bellukstudio.flutix" target={"_blank"} className="project__btn">
                   Live Demo
                 </a>
               </div>
@@ -35,7 +38,7 @@ function Portofolio() {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
-                  <img className="project__img" src={Project1} />
+                  <img className="project__img" src={signature} />
                 </div>
                 <div className="mask__effect"></div>
               </div>
@@ -46,8 +49,8 @@ function Portofolio() {
                 <h4 className="project__text">  
                   Application for create digital signature
                 </h4>
-                <a href="#" className="project__btn">
-                  Live Demo
+                <a href="https://play.google.com/store/apps/details?id=com.bellukstudio.create_signature" target={"_blank"} className="project__btn">
+                  Live Demo 
                 </a>
               </div>
             </div>
@@ -57,7 +60,7 @@ function Portofolio() {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
-                  <img className="project__img" src={Project1} />
+                  <img className="project__img" src={mvoie_app} />
                 </div>
                 <div className="mask__effect"></div>
               </div>
@@ -66,9 +69,9 @@ function Portofolio() {
                   Movie Apps - Tiket Bioskop (Kotlin)
                 </h5>
                 <h4 className="project__text">
-                  Application for create digital signature
+                  Application cinema ticketing
                 </h4>
-                <a href="#" className="project__btn">
+                <a href="https://play.google.com/store/apps/details?id=com.belluk.movapps" target={"_blank"} className="project__btn">
                   Live Demo
                 </a>
               </div>
@@ -79,7 +82,7 @@ function Portofolio() {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
-                  <img className="project__img" src={Project1} />
+                  <img className="project__img" src={penjurian} />
                 </div>
                 <div className="mask__effect"></div>
               </div>
@@ -88,10 +91,10 @@ function Portofolio() {
                   Penjurian Application (Framework Laravel)
                 </h5>
                 <h4 className="project__text">
-                  Application for create digital signature
+                  Penjurian application for contest
                 </h4>
-                <a href="#" className="project__btn">
-                  Live Demo
+                <a href="https://github.com/Bellukchips/penjurian" target={"_blank"} className="project__btn">
+                  Github
                 </a>
               </div>
             </div>

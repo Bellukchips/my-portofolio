@@ -18,14 +18,15 @@ p.heading.p__color {
 }
 
 img.project__img {
-  border-radius: 10px;
+  border-radius: 20px;
   width: 100%;
+  height: 600px;
   object-fit: cover;
   transition: 0.4s;
   opacity: 0.7;
   position: relative;
 }
-.project__box>.project__meta>a{
+.project__box > .project__meta > a {
   color: white;
 }
 img.project__img::after {
@@ -36,6 +37,9 @@ img.project__img::after {
   z-index: 1;
   opacity: 1;
 }
+.project__img__box{
+  background-color: rgba(0, 0, 0, 0.945);
+}
 .mask__effect {
   width: 100%;
   height: 100%;
@@ -44,7 +48,7 @@ img.project__img::after {
   left: 0;
   background-color: #000000;
   transition: 0.4s;
-  border-radius: 10px;
+  border-radius: 20px;
   opacity: 0.3;
   display: none;
 }
@@ -52,6 +56,7 @@ img.project__img::after {
   display: inline;
   transform: scale(1.1);
 }
+
 .project__box:hover img.project__img {
   transform: scale(1.1);
 }
