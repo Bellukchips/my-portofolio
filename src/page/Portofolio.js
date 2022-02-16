@@ -4,6 +4,7 @@ import flutix from "../img/flutix.jpeg";
 import signature from "../img/signature.jpeg";
 import mvoie_app from "../img/movie_app.jpeg";
 import penjurian from "../img/penjurian.jpeg";
+import umkm from "../img/umkm.jpeg";
 function Portofolio() {
   return (
     <div className="project component__space" id="Portofolio">
@@ -28,7 +29,11 @@ function Portofolio() {
                 <h4 className="project__text">
                   Demo application for cinema ticketing
                 </h4>
-                <a href="https://play.google.com/store/apps/details?id=com.bellukstudio.flutix" target={"_blank"} className="project__btn">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.bellukstudio.flutix"
+                  target={"_blank"}
+                  className="project__btn"
+                >
                   Live Demo
                 </a>
               </div>
@@ -46,11 +51,15 @@ function Portofolio() {
                 <h5 className="project__text">
                   Draw Signature (Framework Flutter)
                 </h5>
-                <h4 className="project__text">  
+                <h4 className="project__text">
                   Application for create digital signature
                 </h4>
-                <a href="https://play.google.com/store/apps/details?id=com.bellukstudio.create_signature" target={"_blank"} className="project__btn">
-                  Live Demo 
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.bellukstudio.create_signature"
+                  target={"_blank"}
+                  className="project__btn"
+                >
+                  Live Demo
                 </a>
               </div>
             </div>
@@ -68,10 +77,12 @@ function Portofolio() {
                 <h5 className="project__text">
                   Movie Apps - Tiket Bioskop (Kotlin)
                 </h5>
-                <h4 className="project__text">
-                  Application cinema ticketing
-                </h4>
-                <a href="https://play.google.com/store/apps/details?id=com.belluk.movapps" target={"_blank"} className="project__btn">
+                <h4 className="project__text">Application cinema ticketing</h4>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.belluk.movapps"
+                  target={"_blank"}
+                  className="project__btn"
+                >
                   Live Demo
                 </a>
               </div>
@@ -88,12 +99,41 @@ function Portofolio() {
               </div>
               <div className="project__meta absolute">
                 <h5 className="project__text">
-                  Penjurian Application (Framework Laravel)
+                  Penjurian Application (Framework Laravel) (Freelance Project)
                 </h5>
                 <h4 className="project__text">
                   Penjurian application for contest
                 </h4>
-                <a href="https://github.com/Bellukchips/penjurian" target={"_blank"} className="project__btn">
+                <a
+                  href="https://github.com/Bellukchips/penjurian"
+                  target={"_blank"}
+                  className="project__btn"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col__3">
+            <div className="project__box pointer relative">
+              <div className="project__box__img pointer relative">
+                <div className="project__img__box">
+                  <img className="project__img" src={umkm} />
+                </div>
+                <div className="mask__effect"></div>
+              </div>
+              <div className="project__meta absolute">
+                <h5 className="project__text">
+                  UMKM Application (Java) (Freelance Project)
+                </h5>
+                <h4 className="project__text">
+                  Application for sell product from UMKM
+                </h4>
+                <a
+                  href="https://github.com/Bellukchips/freelance_project"
+                  target={"_blank"}
+                  className="project__btn"
+                >
                   Github
                 </a>
               </div>
