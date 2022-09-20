@@ -21,7 +21,7 @@ img.project__img {
   border-radius: 20px;
   width: 100%;
   height: 600px;
-  object-fit: cover;
+  object-fit: contain;
   transition: 0.4s;
   opacity: 0.7;
   position: relative;
@@ -38,6 +38,9 @@ img.project__img::after {
   opacity: 1;
 }
 .project__img__box{
+  width: 100%;
+  height: 600px;
+  border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.945);
 }
 .mask__effect {
@@ -70,7 +73,7 @@ img.project__img::after {
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 100%;
 }
 h5.project__text {
